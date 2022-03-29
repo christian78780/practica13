@@ -1,0 +1,20 @@
+.grid-container{
+width: 50%;
+margin: auto;
+display: grid;
+}
+.grid-container_element{
+background-color:gold;
+border: solid 1px brown;
+padding: 5px;    
+}
+
+.grid-container{
+width: 50%;
+margin:auto;
+display: grid;
+grid-template-columns: 1fr 2fr 3fr;
+grid-template-columns: [inicio] 100px [linea2] 100px [linea3] 100px [fin]; 
+grid-template-rows: [r-start] 100px [r-end] 30px [rline-3] 50px [r-fin];
+gap: 10px;
+}
